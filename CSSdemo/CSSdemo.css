@@ -1,0 +1,29 @@
+/* Nolan Huesers, 09/22/25 */
+
+/* selector {declaration: value;}*/
+/*selector: HTML element, class or ID*/
+/*declaraton: the styel I want to change*/
+
+body {background-color: red;
+	background-color: blue;
+	color: white;
+	background-color: rgb(255, 50, 50); /*red, green, blue*/
+	background-color: hsl(200, 80%, 80%); /*hue, saturation, lightness*/
+	background-color: #FF22FF  /*hex color*/
+	}
+	
+h1, h2 {color: red;
+		background-color:white;}
+		
+p	{color:blue;}
+
+ol	{background-color: white;
+	color: red;}
+	
+/*targets only the li in an ordered list. The space tells it to target a nested tag */
+ol li{color: green;}
+
+/*targets only one list item*/
+	
+	
+	
