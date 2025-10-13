@@ -5,7 +5,7 @@ body {font-family: Arial, Helvetica, sans-serif;
 
 main {background-color: white;
 	width: 50%;
-	margin: auto} /*?????*/
+	margin: auto;}
 	
 header{background: url('images/logo.png') no-repeat right;
 	text-align: center;
@@ -13,11 +13,11 @@ header{background: url('images/logo.png') no-repeat right;
 	padding: 20px}
 	
 nav {font-weight: bold;
-	text-align: center:}
+	text-align: center;}
 	
 nav a {text-decoration: none;
 	color: #29485d;
-	padding: 10px}
+	padding: 10px;}
 	
 nav a:hover {color: #ff5733;}
 
@@ -33,24 +33,21 @@ footer {font-size: 75%;
 	font-style: italic;
 	text-align: center;
 	font-family: Georgia, 'Times New Roman', serif;
-	text-indent: 20px; /*???*/
+	padding: 20px; 
 	background-color: white;
 	width: 20%;
-	margin: auto /*????*/}
+	margin: auto}
 
-.web {font-weight: bold; /*????*/
+.web {font-weight: bold;
 	color: red;}
 
-#contact {text-align: cent;
-	padding: 15px; /*???*/
-	margin: 20px;
-	background-color: #c7b2ae;} /*???*/
+#contact {text-align: center;
+	padding: 15px; 
+	margin-top: 20px;
+	background-color: #c7b2ae;} 
 	
 .attraction-image {max-width: 600px;
 	display: block;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: auto; /*????*/
-	margin-right: auto;
-	border-radius: 10px; /*????*/
-	box-shadow: 20px 20px 10px grey} /*????/*/
+	margin: 20px auto;
+	border-radius: 10px; 
+	box-shadow: 20px 20px 10px grey}
