@@ -1,35 +1,55 @@
-/*Nolan Huesers, 10/20/25*/
+/*Nolan Huesers, 10/06/25*/
 
-h1{text-align: center;
-	font-weight: 900;
-	color: #1E1E1E;
-	font-family: Montserrat, sans-serif;
-	letter-spacing: 0.5px;}
+body {font-family: Arial, Helvetica, sans-serif;
+background: url('background.jpg') no-repeat center fixed;}
 
+main {background-color: white;
+	width: 50%;
+	margin: auto;}
+	
+header{background: url('images/logo.png') no-repeat right;
+	text-align: center;
+	color:white;
+	padding: 20px}
+	
+nav {font-weight: bold;
+	text-align: center;}
+	
 nav a {text-decoration: none;
-		padding: 10%;}
-
-nav ul{list-style-type: none;}
-
-nav {text-align: center;}
-
-nav li {display: inline;
-	font-weight: 1000;
-		}
-		
-nav a:link {color: #8E24AA;}
-
-nav a:hover {color: red;}
-
-#wrapper {margin-left: auto;
-		margin-right: auto;
-		background-color: #FBC02D;}
-
-body {background-color: #2C2C2C;
-	color: #EAEAEA;
-	font-family: Inter, sans-serif;
+	color: #29485d;
+	padding: 10px;}
 	
+nav a:hover {color: #ff5733;}
+
+h1,h2,h3 {font-family: Georgia, 'Times New Roman', serif;}
+
+h3 {color: #29485d;}
+
+ul {list-style-image: url('images/marker.gif');}
+
+li {line-height: 1.5;}
+
+footer {font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', serif;
+	padding: 20px; 
+	background-color: white;
+	width: 20%;
+	margin: auto}
+
+.web {font-weight: bold;
+	color: red;}
+
+#contact {text-align: center;
+	padding: 15px; 
+	margin-top: 20px;
+	background-color: #c7b2ae;} 
 	
-footer {background-color: #FBC02D;
-		color: #1E1E1E;
-		text-align: center;}
+.attraction-image {max-width: 600px;
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px; 
+	box-shadow: 20px 20px 10px grey}
+
+main li {text-decoration: none;}
