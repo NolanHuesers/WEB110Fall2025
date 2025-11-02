@@ -1,55 +1,66 @@
-/*Nolan Huesers, 10/06/25*/
+/*Nolan Huesers, 10/20/25*/
 
-body {font-family: Arial, Helvetica, sans-serif;
-background: url('background.jpg') no-repeat center fixed;}
+h1{text-align: center;
+	font-weight: 900;
+	color: #1E1E1E;
+	font-family: Montserrat, sans-serif;
+	letter-spacing: 0.5px;} /*This is to center the title of each page, make it bolded to feel bigger, make the color a black that is easy to read with background, give the whole page except for the H1 a font, and give the letters some spacing to make it easier to read*/
 
-main {background-color: white;
-	width: 50%;
-	margin: auto;}
-	
-header{background: url('images/logo.png') no-repeat right;
-	text-align: center;
-	color:white;
-	padding: 20px}
-	
-nav {font-weight: bold;
-	text-align: center;}
-	
 nav a {text-decoration: none;
-	color: #29485d;
-	padding: 10px;}
+		padding: 10px;}  /*To get rid of the underlining of the hyperlink and to give it some spacing*/
+
+nav ul{list-style-type: none;} /*gets rid of the bullet-point on each hyperlink to make it look more like a navigation bar*/ 
+
+nav {text-align: center;} /*Centering nav content*/
+
+nav li {display: inline;
+		font-weight: 1000;} /*makes the text/hyperlinks in the nav bar all on one line and bolds them to make them stand out more */
+		
+nav a:link {color: #8E24AA;} /*lets the user know what links they have not yet visited*/
+
+nav a:hover {color: red;} /*hovering over the hyperlink will highlight it red*/
+
+#wrapper {margin: auto;
+			padding: 10px;
+			max-width: 75%;} /*sets the margins to auto and gives some padding around the edges and gives makes it ot where the text can only take up 75% of the screen*/
+
+body {background-color: #2C2C2C;
+		color: #EAEAEA;
+		font-family: Inter, sans-serif;
+		font-weight: bold;
+		margin: auto;} /*sets the whole background of the page to a dark and clean grey. sets the text color an off white that is easy to read on the background. Set the font family, bold text for easier readability*/
 	
-nav a:hover {color: #ff5733;}
-
-h1,h2,h3 {font-family: Georgia, 'Times New Roman', serif;}
-
-h3 {color: #29485d;}
-
-ul {list-style-image: url('images/marker.gif');}
-
-li {line-height: 1.5;}
-
-footer {font-size: 75%;
-	font-style: italic;
-	text-align: center;
-	font-family: Georgia, 'Times New Roman', serif;
-	padding: 20px; 
-	background-color: white;
-	width: 20%;
-	margin: auto}
-
-.web {font-weight: bold;
-	color: red;}
-
-#contact {text-align: center;
-	padding: 15px; 
-	margin-top: 20px;
-	background-color: #c7b2ae;} 
+main {padding-top: 10px;
+		padding-bottom: 10px} /*gives padding aroud the top between the main and the header and the footer to give some whitespace so it looks clean.*/
 	
-.attraction-image {max-width: 600px;
-	display: block;
-	margin: 20px auto;
-	border-radius: 10px; 
-	box-shadow: 20px 20px 10px grey}
+footer {background-color: #FBC02D;
+		color: #1E1E1E;
+		text-align: center;
+		border: 3px solid #FFF} /*Sets background color to a gold/yellow that contrasts well. Sets the font to black that is easy to read on the gold. Align the text to the center and give a small border around the footer to make a clean outline*/
+		
+header {background-color: #FBC02D;
+		border: 3px solid #FFF} /*Sets background color to the gold/yellow. Gives a white border that outlines the header/nav bar*/
 
-main li {text-decoration: none;}
+.credit {font-weight: normal;} /*Sets the credit information on the pictures to normal font weight to look more like a citation*/
+
+.portfolio-image {max-width: 45%;} /*sets the portfolio image to 45% of the available space*/
+
+#placeholder {display: flex;
+				flex-direction: row;} /*sets up a flex containter that allow me to format my pictures to the right*/
+		
+.home-image {max-width: 35%;
+			padding-right: 3px;} /*sets the home page image to 35% of the available space and gives some padding on the right side of the image so that there is some breathing room for the image*/
+
+.containter {display: grid; 
+			grid-template-columns: auto auto auto;
+			padding: 10px;}  /*sets up a grid for my portfolio that allows it to be formatted the way I want it. Gives padding so it doesn't feel cluttered*/	
+
+.resume-image {max-width: 80%;
+				float: right;
+				padding-right: 3px;} /*makes it so that so that the image on my resume page only takes up 80% of the available space, the image floats to the right and that it has 3 pixels of padding so it doesn't look crammed in there*/
+
+.right-item {margin-left: auto;
+			max-width: 50%;} /*sets the left margin to auto which pushes the right image all the way to the right, only allows the right box to take 50% of the space*/
+
+
+
