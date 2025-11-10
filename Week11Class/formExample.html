@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--Alexa Summers, 11/24/2024-->
+<html lang="en">
+    <head>
+        <title>Sample Form</title>
+        <meta charset="utf-8">
+    </head>
+<body>
+<h1>Sample Form</h1>
+<form name="sample" method="post" id="sample" action="demo.php">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+<br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+<br><br>
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="hobby1" name="hobbies" value="reading">
+        <label for="hobby1">Reading</label><br>
+        <input type="checkbox" id="hobby2" name="hobbies" value="sports">
+        <label for="hobby2">Sports</label><br>
+        <input type="checkbox" id="hobby3" name="hobbies" value="traveling">
+        <label for="hobby3">Traveling</label>
+<br><br>
+        <label>Spongebob:</label><br>
+        <input type="radio" id="squarepants" name="sponge" value="squarepants">
+        <label for="squarepants">Squarepants</label><br>
+        <input type="radio" id="roundpants" name="sponge" value="roundpants">
+        <label for="roundpants">Roundpants</label><br>
+        <input type="radio" id="cubepants" name="sponge" value="cubepants">
+        <label for="cubepants">Cubepants</label>
+   <br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" placeholder="Write your message here..."></textarea>
+<br><br>
+        <label for="color">Favorite Color:</label>
+        <select id="color" name="color">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+        </select>
+<br><br>
+    <!-- Submit and Reset -->
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</form>
+
+</body>
+</html>
