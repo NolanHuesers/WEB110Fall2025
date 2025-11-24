@@ -2,7 +2,7 @@
 
 #wrapper {
 	margin: auto;
-	max-width: 80%;
+	max-width: 75%;
 	text-align: center;
 	font-size: 1.3em;
 	color: #EAEAEA;
@@ -13,10 +13,18 @@ body {
 	background-color: #0B0F2D;
 }
 
+h2 {
+	color: orange;
+	text-decoration: underline;
+}
+
+h3 {
+	color: blue;
+}
+
 header, footer {
 	border: 3px solid #9B30FF;
 	padding: 0;
-	
 }
 
 nav a {
@@ -42,8 +50,13 @@ ol {
 	margin: 0 auto; 
 }
 
+form {
+	padding: 0 0 10px 0;
+}
+
+form label {padding: 0;}
+
 @media (min-width: 576px){
-	
 	}
 
 main {
@@ -54,5 +67,15 @@ main {
 	}
 
 @media (min-width: 992px) {
-	
+	.container {
+		display: grid;
+		grid-template-columns: 1.5fr 1fr;
+		justify-content: space-between;
+		}
+	.paragraph {
+		grid-row: 1 / span 2;
+		text-align: left;
+		padding: 5px 10px 10px 5px:
+	}
+	.paragraph p {padding: 1.5%;)
 	}
