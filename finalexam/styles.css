@@ -1,0 +1,132 @@
+/*Nolan Huesers, 12/07/2025, CSS Page*/
+
+#wrapper {
+	font-family: Inter, sans-seriff;
+	margin: auto;
+	max-width: 75%;
+	text-align: center;
+	font-size: 1.3em;
+	color: #EAEAEA;
+}
+
+body {
+	background-color: #0B0F2D;
+}
+
+h2 {
+	color: orange;
+	text-decoration: underline;
+}
+
+h3 {
+	color: #748A67;
+}
+
+header, footer {
+	border: 3px solid #9B30FF;
+	padding: 0;
+}
+
+main {
+	padding-bottom: 10px;
+}
+
+nav ul li a {
+	color: #00FFE0;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF6B6B;
+}
+
+body p a:hover {
+	color: #FF6B6B;
+}
+
+p a {
+	color: #9A6BFF;
+}
+
+a:visited {
+	color: #00FFE0
+}
+
+.link:link {
+	color: #4DA3FF;
+}
+
+.link:hover {
+	color: #FF6B6B;
+}
+
+ul {
+	list-style-position: inside;
+}
+	
+nav li {
+	display: inline;
+	padding: 0 5%;
+}
+
+ol {
+	list-style-position: inside;
+	padding: 0;
+	margin: 0 auto; 
+}
+
+.intro-section {
+	border-bottom: 2px solid #ccc;
+}
+
+form {
+	padding: 0 0 10px 0;
+}
+
+
+.home-image {
+	width: 70%;
+}
+
+.class-image {
+	width: 70%;
+}
+
+@media (min-width: 576px){
+	}
+
+@media (min-width: 768px) {
+	#credits-page {
+		text-align: left;
+	}
+	#credits-page p {
+		padding: 0 2% 0 2%;
+	}
+	
+	}
+
+@media (min-width: 992px) {
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-content: space-between;
+		}
+	.paragraph {
+		grid-row: 1 / span 2;
+		text-align: left;
+		padding: 5px 10px 10px 5px;
+	}
+	.paragraph p {
+		padding: 1.5%;
+	}
+	.class-image{
+		width: 100%
+	}
+	#credits-page p {
+		padding: 0 1% 0 1%;
+		}
+}

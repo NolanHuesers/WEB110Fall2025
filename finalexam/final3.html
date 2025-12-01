@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--Nolan Huesers, 12/07/2025, Forms Page-->
+<html lang="en">
+   <head>
+      <title>Survey</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css" type="text/css">
+   </head>
+   <body>
+      <div id="wrapper">
+         <header>
+            <nav>
+               <ul>
+                  <li> <a href="final1.html">Home</a> </li>
+                  <li> <a href="final2.html">More Info</a> </li>
+                  <li> <a href="final3.html">Survey</a> </li>
+               </ul>
+            </nav>
+            <h1>Survey</h1>
+         </header>
+         <main>
+            <h2>Enter your Name</h2>
+            <form>
+               <label for="fname">First Name:</label>
+               <input type="text" id="fname" name="fname">
+               <label for="lname">Last Name:</label>
+               <input type="text" id="lname" name="lname">
+            </form>
+            <form>
+               <label for="date">Your Date of Birth:</label>
+               <input type="date" id="date" name="date">
+            </form>
+            <h2>Favorite Class(Select One)</h2>
+            <form>
+               <input type="radio" id="hunter" name="classes" value="hunter">
+               <label for="hunter">Hunter</label>
+               <input type="radio" id="warlock" name="classes" value="warlock">
+               <label for="warlock">Warlock</label>
+               <input type="radio" id="titan" name="classes" value="titan">
+               <label for="titan">Titan</label>
+            </form>
+            <h2>Choose an Element for Your Class</h2>
+            <form>
+               <label for="element">Choose a Subclass</label>
+               <select name="element" id="element">
+                  <option value="solar">Solar</option>
+                  <option value="Void">Void</option>
+                  <option value="Arc">Arc</option>
+                  <option value="Stasis">Stasis</option>
+                  <option value="Strand">Strand</option>
+               </select>
+            </form>
+            <h2>Select Every Bungie Game You Played</h2>
+            <form>
+               <input type="checkbox" id="halo1" name="games" value="halo1">
+               <label for="halo1">Halo:Combat Evolved</label>
+               <input type="checkbox" id="halo2" name="games" value="halo2">
+               <label for="halo2">Halo 2</label>
+               <input type="checkbox" id="halo3" name="games" value="halo3">
+               <label for="halo1">Halo 3</label>
+               <input type="checkbox" id="halo3odst" name="games" value="halo3odst">
+               <label for="halo3odst">Halo 3:ODST</label>
+               <input type="checkbox" id="haloreach" name="games" value="haloreach">
+               <label for="haloreach">Halo Reach</label>
+               <input type="checkbox" id="destiny1" name="games" value="destiny1">
+               <label for="destiny1">Destiny</label>
+               <input type="checkbox" id="destiny2" name="games" value="destiny2">
+               <label for="destiny2">Destiny 2</label>
+            </form>
+            <form>
+               <h2><label for="feedback">Feedback:</label></h2>
+               <textarea placeholder="Leave any Feedback for the Website here." id="feedback" name="feedback" rows="5" cols="50"></textarea>
+            </form>
+            <form>
+               <input type="reset" value="reset">
+               <input type="submit" value="submit">
+            </form>
+            <div id="credits-link">
+               <p><a href="final4.html">Credits</a></p>
+            </div>
+         </main>
+         <footer>
+            &copy; 2025 Nolan Huesers. All Rights Reserved
+            <p>Contact:<a href="mailto:huesersnolan@gmail.com">My Email</a></p>
+         </footer>
+      </div>
+   </body>
+</html>
